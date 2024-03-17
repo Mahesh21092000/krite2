@@ -1,0 +1,330 @@
+/* style start*/
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+/* sidebar starts frm hear ======================================================================*/
+
+.sidebar {
+  margin: 5px;
+  padding: 0;
+  width: 300px;
+
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+.sidebar .closebtn {
+  position: relative;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+.openbtn {
+  width: 30px;
+  height: 30px;
+  background-color: #d2c6c6;
+  border-radius: 10px;
+}
+
+.sidebar a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+  transition: 0.9s;
+}
+
+.heading {
+  width: 290px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading img {
+  width: 30px;
+  height: 30px;
+}
+.logo-cnt {
+  margin-right: 60px;
+}
+.heading span {
+  font-size: 20px;
+  font-weight: 500;
+}
+.logo-img {
+  margin-right: 20px;
+  border-radius: 20px;
+}
+.logo1-img {
+  margin-right: 7px;
+}
+hr {
+  width: 200px;
+}
+.design {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.creative {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+.Folders {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Select {
+  width: 250px;
+  height: 50px;
+  background-color: #555;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.Select option {
+  padding: 10px;
+  width: 250px;
+  height: 50px;
+}
+.Sales {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Legal {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+div.content {
+  margin-left: 300px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+.below {
+  margin-top: 100px;
+}
+.Invite {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.add {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.add button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+/*---------side- bar completed  ----------------------------*/
+
+/*---------------main section bar---------------------------------------*/
+
+/* =====================================================================navbar starts frm hear ======================================================================*/
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input {
+  display: flex;
+  gap: 10px;
+}
+.search-icon {
+  display: flex;
+}
+.search-icon input {
+  height: 30px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid black;
+  outline: none;
+  border-left: none;
+}
+.search-icon button {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid black;
+  border-right: none;
+  background-color: white;
+}
+.text {
+  border-radius: 10px;
+  outline: none;
+}
+.text:hover {
+  background-color: #3e8e41;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.9s;
+}
+/* =====================================================================navbar ends  hear ======================================================================*/
+
+/* =====================================================================all-brands starts frm hear ======================================================================*/
+
+.All-brands {
+  display: flex;
+  justify-content: space-between;
+}
+.desk {
+  gap: 10px;
+  display: flex;
+}
+.all {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  border-radius: 10px;
+  border: 0.5px solid black;
+  background-color: white;
+}
+
+.all:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: #3e8e41;
+  transition: 0.9s;
+}
+.meating {
+  display: flex;
+  gap: 10px;
+}
+.time-value {
+  display: flex;
+}
+/* =====================================================================all brands end hear ======================================================================*/
+
+/* =====================================================================table starts frm hear ======================================================================*/
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 40px;
+  border-collapse: collapse;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: rgb(214, 220, 209);
+  animation: myAnimation 1s linear;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  border-radius: 30%;
+  object-fit: cover;
+ 
+}
+
+/* =====================================================================table ends hear ======================================================================*/
+
+/* =====================================================================footer button starts frm hear ======================================================================*/
+
+.brand-box {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 80px;
+  padding: 30px;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.9s;
+}
+
+.dropbtn {
+  width: 170px;
+  height: 50px;
+  border-radius: 10px;
+  outline: none;
+}
+
+/* =====================================================================footer button ends hear ======================================================================*/
+
+/* =====================================================================media quaries responsive starts ======================================================================*/
+
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
